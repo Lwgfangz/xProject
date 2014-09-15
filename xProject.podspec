@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "xProject"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "所有的xCode工程都可以引用的公共项目"
   s.description      = <<-DESC
                        所有的xCode工程都可以引用的公共项目.
