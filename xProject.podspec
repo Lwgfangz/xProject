@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'xProject/*'
-  s.dependency = 'NSLogger', '~> 1.2'
+  s.dependency  'NSLogger', '1.2'
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
 end
