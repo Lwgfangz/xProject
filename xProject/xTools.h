@@ -1,5 +1,7 @@
 #ifndef _X_TOOLS_H_
 #define _X_TOOLS_H_
+#import "Underscore.h"
+
 
 #define SINGLETON_SYNTHE \
 + (id)sharedInstance\
@@ -17,5 +19,6 @@ return shared;\
 
 #define SINGLETON + (id)sharedInstance;
 
-
+#define __dict(obj) (Underscore.dict(obj))
+#define __array(obj)  (Underscore.array(obj))
 #endif

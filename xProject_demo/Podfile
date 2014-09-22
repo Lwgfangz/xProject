@@ -3,6 +3,7 @@
 
 target "xProject_demo" do
 pod "NSLogger"
+pod 'Underscore.m', '~> 0.2.1'
 end
 
 target "xProject_demoTests" do
